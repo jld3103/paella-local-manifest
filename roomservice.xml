@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="jld3103"                                   fetch="https://github.com/jld3103"       revision="lineage-17.1" />
+  <project remote="github"  path="vendor/bq"                name="TheMuppets/proprietary_vendor_bq"  revision="lineage-17.1" />
+  <project remote="jld3103" path="kernel/bq/msm8939"        name="android_kernel_bq_paella-mainline" revision="master" />
+  <project remote="jld3103" path="device/qcom/common"       name="android_device_qcom_common" />
+  <project remote="jld3103" path="device/bq/paella"         name="android_device_bq_paella" />
+  <project remote="jld3103" path="device/bq/msm8916-common" name="android_device_bq_msm8916-common" />
+  <project remote="jld3103" path="paella-local-manifest"    name="paella-local-manifest" />
+</manifest>
